@@ -3,7 +3,7 @@
 import streamlit as st
 from openai import OpenAI
 
-from langchain_openai.chat_models import ChatOpenAI
+#from langchain_openai.chat_models import ChatOpenAI
 
 with st.sidebar:
   openai_api_key = st.text_input ("OpenAI API Key", type="password")
