@@ -8,7 +8,7 @@ from openai import OpenAI
 with st.sidebar:
   openai_api_key = st.text_input ("OpenAI API Key", type="password")
 
-st.title("Ad Guru: AI Powered Ad Magic")
+st.title("AD AARK: AI Powered Ad Magic")
 st.header("A streamlit chatbot powered by OpenAI:")
 st.image("AI_ad.jpg")
 
